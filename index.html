@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jvascript Error Handling</title>
+    </head>
+        <body>
+         <h4> Why are the good student have a low money in the end </h4>
+         <p>They may be good but not in their acadamics and they can cheat or bribe or do things to get those good grades and be proud</p>
+         <h1 id="error_message"></h1>
+         <script>
+            try{
+                addalert("elcome guest come again")
+            }
+            catch(err){
+                document.getElementById("error_message").innerHTML = err.message;
+            }
+         </script>
+        </body>
+</html>

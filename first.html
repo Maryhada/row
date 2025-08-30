@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Arrow function</title> 
+    </head>
+    <body>
+     <h1>Why people badmouth others?</h1>
+     <p>This because they are either jealous of the other or their parent is comparsions</p>
+     <p id="demo"></p>
+     <p id="normal"></p>
+     <script>
+        //Arrow function to add two numbers.
+        const add = (a, b) => a + b;
+        //Normal function
+        function addNormal(a, b) {
+            return a + b;
+
+        }
+        document.getElementById("demo").innerHTML = "5 + 3 =" + add(5, 3);
+         document.getElementById("normal").innerHTML = "5 + 3 =" + add(5, 3);
+     </script>
+    </body> 
+    </html>
